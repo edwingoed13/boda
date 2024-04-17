@@ -11,7 +11,7 @@ export const audio = (() => {
             audio.currentTime = 0;
             audio.autoplay = true;
             audio.muted = false;
-            audio.loop = true;
+            audio.loop = false;
             audio.volume = 1;
         }
 
